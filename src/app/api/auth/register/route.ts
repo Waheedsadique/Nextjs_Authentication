@@ -11,6 +11,14 @@ interface UserPayload {
   email: string;
   password: string;
   avtar?: string;
+  passportid?: string;
+  phonenumber?: string;
+  country?: string;
+  city?: string;
+  pin?: string;
+  package?: string;
+  currency?: string;
+  role?: string;
 }
 
 connect();

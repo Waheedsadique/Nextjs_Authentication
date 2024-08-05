@@ -15,7 +15,7 @@ export default async function Home() {
       <HomeHere />
       <div className="container">
         <div className="px-10 lg:px-80">
-          <h1 className="text-4xl">Hi Bro</h1>
+          <h1 className="text-4xl">Hi User</h1>
           {JSON.stringify(session)}
         </div>
       </div>
